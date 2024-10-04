@@ -36,7 +36,7 @@ $ chmod 771 aws_resource_list_tracker.sh
 
 # last you run the shell script using your arguments <region> & <aws_services> :
 
-example : ./aws_resource_list_tracker.sh <yourRegion> <desireAwsServices>
+example : ./aws_resource_list_tracker.sh `yourRegion` `desireAwsServices`
 
 ```
 $ ./aws_resource_list_tracker.sh eu-north-1 ec2
